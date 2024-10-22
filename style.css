@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+body {
+    background-color: #00032c;
+}
+
+/* .oclock{
+    width: 850px;
+    height: 300px;
+    border-radius: 20px;
+} */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(6, 45, 185);
+    width: 550px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 25vh;
+}
+
+h1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 108.92px;
+    text-align: center;
+
+    box-shadow: 8px 9px 22px 1px #00000099;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+.key {
+    animation-name: example;
+    animation-duration: 0.99s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        color: black;
+    }
+
+    to {
+        color: #00000000;
+    }
+}
+
+.krk{
+    animation-name: kr;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes kr {
+    from {
+        
+    }
+    to {
+        box-shadow: 0px 0px 100px 20px #fff;
+    }
+}
+
+.mint{
+    animation-name: min;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+@keyframes kr {
+    from {
+        
+    }
+    to {
+        box-shadow: 0px 0px 100px 20px #fff;
+    }
+}
